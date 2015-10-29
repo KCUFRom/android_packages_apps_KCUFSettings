@@ -15,6 +15,7 @@
     <string name="kcuf_settings_title">KCUF Settings</string>
 
     <!-- Categories -->
+    <string name="animation_title">Animations</string>
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
