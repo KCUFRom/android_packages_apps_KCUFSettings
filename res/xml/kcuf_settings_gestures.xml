@@ -19,6 +19,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.kcuf.settings.preferences.SystemSettingSwitchPreference
+        android:key="swipe_to_screenshot"
+        android:title="@string/swipe_to_screenshot_gesture_title"
+        android:summary="@string/swipe_to_screenshot_gesture_summary"
+        android:defaultValue="false" />
+
+    <com.kcuf.settings.preferences.SystemSettingSwitchPreference
         android:key="torch_long_press_power_gesture"
         android:title="@string/torch_long_press_power_gesture_title"
         android:summary="@string/torch_long_press_power_gesture_desc"
@@ -33,4 +39,5 @@
         android:entryValues="@array/torch_long_press_power_timeout_values"
         android:dependency="torch_long_press_power_gesture"
         android:persistent="false" />
+
 </PreferenceScreen>
